@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0064c9;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<table id="customers">
+  <tr>
+    <th>Atributo</th>
+    <th>Descrição</th>
+    <th>URI</th>
+    <th>Tipo</th>
+    <th>Cardinalidade</th>
+  </tr>
+  <tr>
+    <td>cursoID</td>
+    <td>Identificador do curso</td>
+    <td><a href="https://schema.org/identifier">https://schema.org/identifier</a></td>  
+    <td>xsd:text</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>nome</td>
+    <td>Nome do curso</td>
+    <td><a href="https://schema.org/name">https://schema.org/name</a></td>  
+    <td>xsd:text</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>tempoDuracao</td>
+    <td>Tempo(em anos) de duração do curso</td>
+    <td><a href="https://schema.org/duration">https://schema.org/duration</a></td>  
+    <td>xsd:integer</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>diretor</td>
+    <td>Nome do Diretor de curso</td>
+    <td><a href="https://schema.org/director">https://schema.org/director</a></td>  
+    <td>xsd:text</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>areaCientifica</td>
+    <td>Area Científica onde o curso se enquadra</td>
+    <td><a href="http://purl.org/dc/terms/subject">http://purl.org/dc/terms/subject</a></td>  
+    <td>xsd:text</td>
+    <td>1 ou *</td>
+  </tr>
+  <tr>
+    <td>mediaEntrada</td>
+    <td>Media escolar mínima para entrada no curso no presente ano</td>
+    <td><a href="https://schema.org/value">https://schema.org/value</a></td>  
+    <td>xsd:number</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>disciplina (cadeiras ao longo dos anos)</td>
+    <td>Lista de todas as disciplinas abordadas nos anos escolares do curso</td>
+    <td><a href="https://schema.org/hasCourse">https://schema.org/hasCourse</a></td>  
+    <td>xsd:anyURI (Class:Course)</td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td>escola/instituicao</td>
+    <td>Instituição onde o curso existe e é lecionado</td>
+    <td><a href="https://schema.org/name">https://schema.org/name</a></td>  
+    <td>xsd:text</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>saidaProfissional</td>
+    <td>Saídas profissionais que se abrem ao terminar o curso</td>
+    <td><a href="https://schema.org/offers">https://schema.org/offers</a></td>  
+    <td>xsd:anyURI (Class:Offer)</td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td>grau</td>
+    <td>O curso tem licenciatura ou mestrado</td>
+    <td><a href="https://schema.org/credentialCategory">https://schema.org/credentialCategory</a></td>  
+    <td>xsd:text</td>
+    <td>1 ou *</td>
+  </tr>
+  <tr>
+    <td>tipoEnsino</td>
+    <td>Classifica o tipo de ensino em público ou privado</td>
+    <td><a href="https://schema.org/name">https://schema.org/name</a></td>  
+    <td>xsd:text</td>
+    <td>1 ou *</td>
+  </tr>
+  <tr>
+    <td>vagas</td>
+    <td>Quantidade de vagas disponiveis no momento</td>
+    <td><a href="https://schema.org/totalJobOpenings">https://schema.org/totalJobOpenings</a></td>  
+    <td>xsd:integer</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>numeroECTS</td>
+    <td>Quantidade de créditos ganhos no total ao terminar o curso</td>
+    <td><a href="https://schema.org/numberOfCredits">https://schema.org/numberOfCredits</a></td>  
+    <td>xsd:integer</td>
+    <td>1</td>
+  </tr>
+
+</table>
+
+</body>
+</html>

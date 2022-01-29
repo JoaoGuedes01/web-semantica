@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0064c9;
+  color: white;
+}
+</style>
+</head>
+<body>
+<!--
+
+<p>Através da seguinte tabela, é possível verificar os vocabulários selecionados para aplicar aos atributos identificados, juntamente com o seu Prefixo, URI e Descrição.</p>
+<br>-->
+
+<table id="customers">
+  <tr>
+    <th>Nome</th>
+    <th>Prefixo</th>
+    <th>URI</th>
+    <th>Descrição</th>
+  </tr>
+  <tr>
+    <td>DCMI Metadata Terms</td>
+    <td>dcterms</td>
+    <td><a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a></td>
+    <td>Uma especificação atualizada de todos os termos de metadados mantidos pela Dublin Core Metadata Initiative, incluindo propriedades, esquemas de codificação de vocabulário, esquemas de codificação de sintaxe e classes.</td>
+  </tr>
+  <tr>
+    <td>Schema.org
+        vocabulary
+       </td>
+    <td>schema</td>
+    <td><a href="http://schema.org/">http://schema.org/</a></td>
+    <td>O vocabulário do Schema.org pode ser usado com muitas codificações diferentes, incluindo RDFa, Microdata e JSON-LD. Esses vocabulários cobrem entidades, relacionamentos entre entidades e ações, e podem ser facilmente estendidos por meio de um modelo de extensão bem documentado.
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

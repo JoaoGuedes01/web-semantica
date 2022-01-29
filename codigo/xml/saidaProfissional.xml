@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="http://schema.org/"> 
+
+    <rdf:Description
+    rdf:about="https://sites.google.com/view/web-semntica-recursos-saidas/empresas-de-grande-dimensão">
+
+    <!--saidaProfissionalID-->
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">empresas-de-grande-dimensão</schema:identifier>
+
+    <!--nome-->
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Empresas de Grande Dimensão</schema:name>
+
+    <!--areaCientifica-->
+    <dcterms:subject>
+        <rdf:List>
+            <rdf:li>Ciências da Especialidade-Tecnologias e Sistemas de Informação</rdf:li>
+            <rdf:li>Eletrónica e Automação</rdf:li>
+            <rdf:li>Ciências Informáticas</rdf:li>
+            <rdf:li>Ciências da Web</rdf:li>
+        </rdf:List>
+    </dcterms:subject>
+
+    <!--curso-->
+    <schema:teaches>
+        <rdf:List>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=L215&#38;code=1000"/>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=9119&#38;code=1000"/>
+        </rdf:List>
+    </schema:teaches>
+
+    </rdf:Description>
+
+    <rdf:Description
+    rdf:about="https://sites.google.com/view/web-semntica-recursos-saidas/empresas-de-consultoria"
+    >
+
+    <!--saidaProfissionalID-->
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">empresas-de-consultoria</schema:identifier>
+
+    <!--nome-->
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Empresas de Consultoria</schema:name>
+
+    <!--areaCientifica-->
+    <dcterms:subject>
+        <rdf:List>
+            <rdf:li>Ciências da Especialidade-Tecnologias e Sistemas de Informação</rdf:li>
+            <rdf:li>Eletrónica e Automação</rdf:li>
+            <rdf:li>Ciências Informáticas</rdf:li>
+            <rdf:li>Ciências da Web</rdf:li>
+        </rdf:List>
+    </dcterms:subject>
+
+    <!--curso-->
+    <schema:teaches>
+        <rdf:List>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=L215&#38;code=1000"/>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=9119&#38;code=1000"/>
+        </rdf:List>
+    </schema:teaches>
+
+    </rdf:Description>
+</rdf:RDF>
+
+
+

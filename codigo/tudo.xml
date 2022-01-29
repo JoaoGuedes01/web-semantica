@@ -1,0 +1,316 @@
+<!--.......................................Curso................................................-->
+
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="http://schema.org/"	
+    > 
+
+    <rdf:Description
+    rdf:about="https://www.dges.gov.pt/guias/detcursopi.asp?codc=L215&#38;code=1000"
+    >
+
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">1000/L215</schema:identifier>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Mestrado integrado em Engenharia e Gestão de Sistemas de Informação</schema:name>
+    <schema:duration rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">5</schema:duration>
+    <schema:director rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">MAB</schema:director>    
+    <dcterms:subject>Ciências Informáticas</dcterms:subject>
+    <schema:value rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">145,2</schema:value>
+    <schema:hasCourse>
+        <rdf:List>
+            <rdf:li rdf:resource="https://www.uminho.pt/pt/_layouts/15/uminho.portalum.ui/pages/catalogocursodetail.aspx?cid=t000049&#38;catid=5"></rdf:li>
+            <rdf:li rdf:resource="https://www.uminho.pt/PT/ensino/oferta-educativa/Cursos-Conferentes-a-Grau/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=4079&#38;catId=12"></rdf:li>
+        </rdf:List>
+    </schema:hasCourse>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Universidade do Minho</schema:name>
+    <schema:offers>
+    <rdf:List>
+            <rdf:li rdf:resource="https://sites.google.com/view/web-semntica-recursos-saidas/empresas-de-grande-dimensão"></rdf:li>
+            <rdf:li rdf:resource="https://sites.google.com/view/web-semntica-recursos-saidas/empresas-de-consultoria"></rdf:li>
+        </rdf:List>
+    </schema:offers>
+    <schema:credentialCategory rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Licenciatura - 1º ciclo</schema:credentialCategory>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Ensino Superior Público Universitário</schema:name>
+    <schema:totalJobOpenings rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">145</schema:totalJobOpenings>
+    <schema:numberOfCredits rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">180</schema:numberOfCredits>
+
+    </rdf:Description>
+</rdf:RDF>
+
+
+<!--.........................................................................................................................................................................-->
+
+
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="http://schema.org/"	
+    > 
+
+    <rdf:Description
+    rdf:about="https://www.dges.gov.pt/guias/detcursopi.asp?codc=9119&#38;code=1000"
+    >
+
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">1000/9119</schema:identifier>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Engenharia Informática</schema:name>
+    <schema:duration rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">3</schema:duration>
+    <schema:director rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">MAB</schema:director>    
+    <dcterms:subject>Eletrónica e Automação</dcterms:subject>
+    <schema:value rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">171,8</schema:value>
+    <schema:hasCourse>
+        <rdf:List>
+            <rdf:li rdf:resource="https://www.uminho.pt/pt/_layouts/15/uminho.portalum.ui/pages/catalogocursodetail.aspx?cid=t000049&#38;catid=5"></rdf:li>
+            <rdf:li rdf:resource="https://www.uminho.pt/PT/ensino/oferta-educativa/Cursos-Conferentes-a-Grau/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=4079&#38;catId=12"></rdf:li>
+        </rdf:List>
+    </schema:hasCourse>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Universidade do Minho</schema:name>
+    <schema:offers>
+        <rdf:List>
+            <rdf:li rdf:resource="https://sites.google.com/view/web-semntica-recursos-saidas/empresas-de-grande-dimensão"></rdf:li>
+            <rdf:li rdf:resource="https://sites.google.com/view/web-semntica-recursos-saidas/empresas-de-consultoria"></rdf:li>
+        </rdf:List>
+    </schema:offers>
+    <schema:credentialCategory rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Licenciatura - 1º ciclo</schema:credentialCategory>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Ensino Superior Público Universitário</schema:name>
+    <schema:totalJobOpenings rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">175</schema:totalJobOpenings>
+    <schema:numberOfCredits rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">180</schema:numberOfCredits>
+
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+
+
+
+<!--.......................................Disciplina................................................-->
+         
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="http://schema.org/"	
+    > 
+
+    <rdf:Description
+    rdf:about="https://www.uminho.pt/pt/_layouts/15/uminho.portalum.ui/pages/catalogocursodetail.aspx?cid=t000049&#38;catid=5"
+    >
+
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">9952</schema:identifier>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Fundamentos da Programação de Computadores</schema:name> 
+    <dcterms:subject rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Ciências da Especialidade-Tecnologias e Sistemas de Informação</dcterms:subject>
+    <schema:numberOfCredits rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">10</schema:numberOfCredits>
+    <schema:courseMode rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Presencial</schema:courseMode>
+    <dcterms:language rdf:resource="https://iso639-3.sil.org/code/por"/>
+    <schema:director rdf:resource="https://www.eeg.uminho.pt/pt/_layouts/15/UMinho.PortaisUOEI.UI/Pages/userinfo.aspx?p=2627"/> 
+    <schema:itemListElement>
+        <rdf:List>
+            <rdf:li rdf:resource="https://www.eeg.uminho.pt/pt/_layouts/15/UMinho.PortaisUOEI.UI/Pages/userinfo.aspx?p=2627"></rdf:li>
+            <rdf:li rdf:resource="https://www.eeg.uminho.pt/pt/_layouts/15/UMinho.PortaisUOEI.UI/Pages/userinfo.aspx?p=2538"></rdf:li>
+        </rdf:List>
+    </schema:itemListElement>
+    <schema:courseWorkload rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">190 horas</schema:courseWorkload>
+    <dcterms:instructionalMethod rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">A classificação final à unidade curricular depende do estado do aluno quanto a frequência e 
+    admissão a exame e é calculada com base em duas componentes: componente experimental e componente contínua.
+    A determinação da classificação à unidade curricular (cuc) é realizada mediante a aplicação da seguinte fórmula de cálculo: cuc = 0.90 × Ce + 0.10 × Cc
+    Nota: o Coordenador da UC disponibiliza aos alunos o método de avaliação detalhado.</dcterms:instructionalMethod>
+    <schema:workHours rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Semestral</schema:workHours>
+    <schema:teaches>
+        <rdf:List>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=L215&#38;code=1000"/>
+        </rdf:List>
+    </schema:teaches>
+    <schema:skills>
+        <rdf:List>
+            <rdf:li rdf:resource="https://sites.google.com/view/websemnticarecursos/programação-web"></rdf:li>
+            <rdf:li rdf:resource="https://sites.google.com/view/websemnticarecursos/bases-de-dados"></rdf:li>
+        </rdf:List>
+    </schema:skills>
+    </rdf:Description>
+</rdf:RDF>
+
+<!--.........................................................................................................................................................................-->
+
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="http://schema.org/"	
+    > 
+
+    <rdf:Description
+    rdf:about="https://www.uminho.pt/PT/ensino/oferta-educativa/Cursos-Conferentes-a-Grau/_layouts/15/UMinho.PortalUM.UI/Pages/CatalogoCursoDetail.aspx?itemId=4079&#38;catId=12"
+    >
+
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">14307</schema:identifier>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Bases de Dados</schema:name> 
+    <dcterms:subject rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Informática</dcterms:subject>
+    <schema:numberOfCredits rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">5</schema:numberOfCredits>
+    <schema:courseMode rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Presencial</schema:courseMode>
+    <dcterms:language rdf:resource="https://iso639-3.sil.org/code/por"/>
+    <schema:instructor rdf:resource="https://www.eeg.uminho.pt/pt/_layouts/15/UMinho.PortaisUOEI.UI/Pages/userinfo.aspx?p=4049"/>
+    <schema:itemListElement>
+        <rdf:List>
+            <rdf:li rdf:resource="https://www.eeg.uminho.pt/pt/_layouts/15/UMinho.PortaisUOEI.UI/Pages/userinfo.aspx?p=4049"></rdf:li>
+            <rdf:li rdf:resource="https://www.eeg.uminho.pt/pt/_layouts/15/UMinho.PortaisUOEI.UI/Pages/userinfo.aspx?p=1637"></rdf:li>
+        </rdf:List>
+    </schema:itemListElement>
+    <schema:courseWorkload rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">140 horas</schema:courseWorkload>
+    <dcterms:instructionalMethod rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">
+    Os alunos para obterem aproveitamento a esta unidade curricular têm que realizar obrigatoriamente um exame final e um trabalho prático. A avaliação final da unidade curricular é calculada a partir da média das notas obtidas no exame e no trabalho prático. A nota mínima admissível no exame e no trabalho prático é de 10 (dez) valores. O trabalho prático deverá ser realizado em grupo.
+    </dcterms:instructionalMethod>
+    <schema:workHours rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Semestral</schema:workHours>
+    <schema:teaches>
+        <rdf:List>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=L215&#38;code=1000"/>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=9119&#38;code=1000"/>
+        </rdf:List>
+    </schema:teaches>
+    <schema:skills>
+        <rdf:List>
+            <rdf:li rdf:resource="https://sites.google.com/view/websemnticarecursos/programação-web"></rdf:li>
+            <rdf:li rdf:resource="https://sites.google.com/view/websemnticarecursos/bases-de-dados"></rdf:li>
+        </rdf:List>
+    </schema:skills>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+
+
+
+<!--.......................................Saída profissional................................................-->
+
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="http://schema.org/"	
+    > 
+
+    <rdf:Description
+    rdf:about="https://sites.google.com/view/web-semntica-recursos-saidas/empresas-de-grande-dimensão"
+    >
+
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">empresas-de-grande-dimensão</schema:identifier>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Empresas de Grande Dimensão</schema:name>
+    <dcterms:subject>
+        <rdf:List>
+            <rdf:li>Ciências da Especialidade-Tecnologias e Sistemas de Informação</rdf:li>
+            <rdf:li>Eletrónica e Automação</rdf:li>
+            <rdf:li>Ciências Informáticas</rdf:li>
+            <rdf:li>Ciências da Web</rdf:li>
+        </rdf:List>
+    </dcterms:subject>
+    <schema:teaches>
+        <rdf:List>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=L215&#38;code=1000"/>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=9119&#38;code=1000"/>
+        </rdf:List>
+    </schema:teaches>
+
+    </rdf:Description>
+</rdf:RDF>
+
+<!--.........................................................................................................................................................................-->
+
+
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="http://schema.org/"	
+    > 
+
+    <rdf:Description
+    rdf:about="https://sites.google.com/view/web-semntica-recursos-saidas/empresas-de-consultoria"
+    >
+
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">empresas-de-consultoria</schema:identifier>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Empresas de Consultoria</schema:name>
+    <dcterms:subject>
+        <rdf:List>
+            <rdf:li>Ciências da Especialidade-Tecnologias e Sistemas de Informação</rdf:li>
+            <rdf:li>Eletrónica e Automação</rdf:li>
+            <rdf:li>Ciências Informáticas</rdf:li>
+            <rdf:li>Ciências da Web</rdf:li>
+        </rdf:List>
+    </dcterms:subject>
+    <schema:teaches>
+        <rdf:List>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=L215&#38;code=1000"/>
+            <rdf:li rdf:resource="https://www.dges.gov.pt/guias/detcursopi.asp?codc=9119&#38;code=1000"/>
+        </rdf:List>
+    </schema:teaches>
+
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+
+
+<!--.......................................Competencia................................................-->
+
+
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="http://schema.org/"	
+    > 
+
+    <rdf:Description
+    rdf:about="https://sites.google.com/view/websemnticarecursos/programação-web"
+    >
+
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">programação-web</schema:identifier>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Programação Web</schema:name>
+    <dcterms:subject>
+    <rdf:List>
+            <rdf:li>Ciências da Especialidade-Tecnologias e Sistemas de Informação</rdf:li>
+            <rdf:li>Eletrónica e Automação</rdf:li>
+            <rdf:li>Ciências Informáticas</rdf:li>
+            <rdf:li>Ciências da Web</rdf:li>
+        </rdf:List>
+    </dcterms:subject>
+    <schema:hasCourse>
+    <rdf:List>
+            <rdf:li>Programação Web</rdf:li>
+        </rdf:List>
+    </schema:hasCourse>
+    <schema:ratingValue rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">9/10</schema:ratingValue>
+
+    </rdf:Description>
+</rdf:RDF>
+
+<!--.........................................................................................................................................................................-->
+
+
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="http://schema.org/"	
+    > 
+
+    <rdf:Description
+    rdf:about="https://sites.google.com/view/websemnticarecursos/bases-de-dados"
+    >
+
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">bases-de-dados</schema:identifier>
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Bases de Dados</schema:name>
+    <dcterms:subject>
+        <rdf:List>
+            <rdf:li>Ciências da Especialidade-Tecnologias e Sistemas de Informação</rdf:li>
+            <rdf:li>Eletrónica e Automação</rdf:li>
+            <rdf:li>Ciências Informáticas</rdf:li>
+            <rdf:li>Ciências da Web</rdf:li>
+        </rdf:List>
+    </dcterms:subject>
+    <schema:hasCourse>
+    <rdf:List>
+            <rdf:li>Bases de Dados</rdf:li>
+            <rdf:li>Tecnologias de Suporte à Gestão</rdf:li>
+            <rdf:li>Tópicos Avançados de Bases de Dados</rdf:li>
+        </rdf:List>
+    </schema:hasCourse>
+    <schema:ratingValue rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">9/10</schema:ratingValue>
+
+    </rdf:Description>
+</rdf:RDF>

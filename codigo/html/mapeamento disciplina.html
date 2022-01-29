@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0064c9;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<table id="customers">
+  <tr>
+    <th>Atributo</th>
+    <th>Descrição</th>
+    <th>URI</th>
+    <th>Tipo</th>
+    <th>Cardinalidade</th>
+  </tr>
+  <tr>
+    <td>disciplinaID</td>
+    <td>Identificador do objeto disciplina</td>
+    <td><a href="https://schema.org/identifier">https://schema.org/identifier</a></td>  
+    <td>xsd:text</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>nome</td>
+    <td>Nome da disciplina</td>
+    <td><a href="https://schema.org/name">https://schema.org/name</a></td>  
+    <td>xsd:text</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>areaCientifica</td>
+    <td>Area Científica onde a disciplina se enquadra</td>
+    <td><a href="http://purl.org/dc/terms/subject">http://purl.org/dc/terms/subject</a></td>  
+    <td>xsd:text</td>
+    <td>1 ou *</td>
+  </tr>
+  <tr>
+    <td>numeroECTS</td>
+    <td>Creditos acumulados ao terminar a disciplina</td>
+    <td><a href="https://schema.org/numberOfCredits">https://schema.org/numberOfCredits</a></td>  
+    <td>xsd:integer</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>tipoEnsino</td>
+    <td>Método de ensino presencial ou remoto</td>
+    <td><a href="https://schema.org/courseMode">https://schema.org/courseMode</a></td>  
+    <td>xsd:text</td>
+    <td>1 ou *</td>
+  </tr>
+  <tr>
+    <td>linguaInstituicao</td>
+    <td>Língua em que a disciplina é lecionada</td>
+    <td><a href="http://purl.org/dc/terms/language">http://purl.org/dc/terms/language</a></td>  
+    <td><a href="https://iso639-3.sil.org/code/por">https://iso639-3.sil.org/code/por</a></td> 
+    <td>1 ou *</td>
+  </tr>
+  <tr>
+    <td>docente</td>
+    <td>Professor Docente responsável pela disciplina</td>
+    <td><a href="https://schema.org/value">https://schema.org/value</a></td>  
+    <td>xsd:number</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>listaProfessores</td>
+    <td>Lista de professores que lecionam a disciplina</td>
+    <td><a href="https://schema.org/itemListElement">https://schema.org/itemListElement</a></td>  
+    <td>xsd:anyURI (Class:Person)</td>
+    <td>1 ou *</td>
+  </tr>
+  <tr>
+    <td>tempoTrabalho</td>
+    <td>Dedicação horária à disciplina por semana para um bom rendimento</td>
+    <td><a href="https://schema.org/courseWorkload">https://schema.org/courseWorkload</a></td>  
+    <td>xsd:text</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>metodoAvaliacao</td>
+    <td>A cadeira é avaliada através de testes, trabalhos ou ambos</td>
+    <td><a href="http://purl.org/dc/terms/instructionalMethod">http://purl.org/dc/terms/instructionalMethod</a></td>  
+    <td>xsd:text</td>
+    <td>1 ou *</td>
+  </tr>
+  <tr>
+    <td>regimeFuncional</td>
+    <td>O periodo de tempo em que a disciplina é lecionada</td>
+    <td><a href="https://schema.org/workHours">https://schema.org/workHours</a></td>  
+    <td>xsd:text</td>
+    <td>1 ou *</td>
+  </tr>
+  <tr>
+    <td>curso</td>
+    <td>Lista dos cursos onde esta disciplina é lecionada</td>
+    <td><a href="https://schema.org/teaches">https://schema.org/teaches</a></td>  
+    <td>xsd:anyURI (Class:Teaches)</td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td>competencias</td>
+    <td>Lista de competencias adquiridas na disciplina</td>
+    <td><a href="https://schema.org/skills">https://schema.org/skills</a></td>  
+    <td>xsd:anyURI (Class:Skill)</td>
+    <td>*</td>
+  </tr>
+
+</table>
+
+</body>
+</html>

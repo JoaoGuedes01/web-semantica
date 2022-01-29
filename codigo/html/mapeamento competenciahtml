@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0064c9;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<table id="customers">
+  <tr>
+    <th>Atributo</th>
+    <th>Descrição</th>
+    <th>URI</th>
+    <th>Tipo</th>
+    <th>Cardinalidade</th>
+  </tr>
+  <tr>
+    <td>competenciaID</td>
+    <td>Identificador do objeto competência</td>
+    <td><a href="https://schema.org/identifier">https://schema.org/identifier</a></td>  
+    <td>xsd:text</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>nome</td>
+    <td>Designação da competência</td>
+    <td><a href="https://schema.org/name">https://schema.org/name</a></td>  
+    <td>xsd:text</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>areaCientifica</td>
+    <td>Area Científica onde a competência se enquadra</td>
+    <td><a href="http://purl.org/dc/terms/subject">http://purl.org/dc/terms/subject</a></td>  
+    <td>xsd:text</td>
+    <td>1 ou *</td>
+  </tr>
+  <tr>
+  <tr>
+    <td>disciplina (cadeiras ao longo dos anos)</td>
+    <td>Lista de disciplinas que oferecem esta competência</td>
+    <td><a href="https://schema.org/hasCourse">https://schema.org/hasCourse</a></td>  
+    <td>xsd:anyURI (Class:Course)</td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td>popularidade/importancia</td>
+    <td>Grau de popularidade/importância que esta competência tem no mercado de trabalho</td>
+    <td><a href="https://schema.org/ratingValue">https://schema.org/ratingValue</a></td>  
+    <td>xsd:number</td>
+    <td>1 ou *</td>
+  </tr>
+
+</table>
+
+</body>
+</html>

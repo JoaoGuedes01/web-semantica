@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:schema="http://schema.org/"	
+    > 
+
+    <rdf:Description
+    rdf:about="https://sites.google.com/view/websemnticarecursos/programação-web">
+
+    <!--competenciaID-->
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">programação-web</schema:identifier>
+
+    <!--nome-->
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Programação Web</schema:name>
+
+    <!--areaCientifica-->
+    <dcterms:subject>
+    <rdf:List>
+            <rdf:li>Ciências da Especialidade-Tecnologias e Sistemas de Informação</rdf:li>
+            <rdf:li>Eletrónica e Automação</rdf:li>
+            <rdf:li>Ciências Informáticas</rdf:li>
+            <rdf:li>Ciências da Web</rdf:li>
+        </rdf:List>
+    </dcterms:subject>
+
+    <!--disciplina-->
+    <schema:hasCourse>
+    <rdf:List>
+            <rdf:li>Programação Web</rdf:li>
+        </rdf:List>
+    </schema:hasCourse>
+
+    <!--popularidade-->
+    <schema:ratingValue rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">9/10</schema:ratingValue>
+
+    </rdf:Description>
+
+    <rdf:Description
+    rdf:about="https://sites.google.com/view/websemnticarecursos/bases-de-dados">
+
+    <!--competenciaID-->
+    <schema:identifier rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">bases-de-dados</schema:identifier>
+
+    <!--nome-->
+    <schema:name rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#strings">Bases de Dados</schema:name>
+
+    <!--areaCientifica-->
+    <dcterms:subject>
+        <rdf:List>
+            <rdf:li>Ciências da Especialidade-Tecnologias e Sistemas de Informação</rdf:li>
+            <rdf:li>Eletrónica e Automação</rdf:li>
+            <rdf:li>Ciências Informáticas</rdf:li>
+            <rdf:li>Ciências da Web</rdf:li>
+        </rdf:List>
+    </dcterms:subject>
+
+    <!--disciplina-->
+    <schema:hasCourse>
+    <rdf:List>
+            <rdf:li>Bases de Dados</rdf:li>
+            <rdf:li>Tecnologias de Suporte à Gestão</rdf:li>
+            <rdf:li>Tópicos Avançados de Bases de Dados</rdf:li>
+        </rdf:List>
+    </schema:hasCourse>
+
+    <!--popularidade-->
+    <schema:ratingValue rdf:datatype="https://www.w3.org/TR/CSS2/syndata.html#numbers">9/10</schema:ratingValue>
+
+    </rdf:Description>
+</rdf:RDF>
